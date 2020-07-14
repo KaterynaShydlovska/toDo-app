@@ -1,17 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-// import MyComponent from './components/Greet'
-// import {Greet} from './components/Greet';
-import Greet from './components/Greet';
-import Welcome from './components/Welcome'
+import './style.css';
+import Header from './components/Header'
+import MainContent from './components/MainContent'
+import Footer from './components/Footer'
+
+
 
 function App() {
   return (
-    <div className="App">
-     {/* <MyComponent/> */}
-     <Greet/>
-     <Welcome/>
+    <div>
+      <Header/>
+      <div className = 'todo-list'>
+      <MainContent/>
+      <MainContent/>
+      <MainContent/>
+      <MainContent/>
+      </div>
+      <Footer/>
     </div>
   );
 }
