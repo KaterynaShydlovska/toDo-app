@@ -5,22 +5,12 @@ body{
 .todo-list{
   background-color: aliceblue;
   margin: auto;
-  width: 50%;
+  width: 60%;
   display: flex ;
   flex-direction: column;
   border: 1px solid #efefef;
   padding: 30px;
   box-shadow: 5px 10px #888888;
-  /* box-shadow: 
-  0 1px 1px rgba(0, 0, 0, 0.15),
-
-  0 10px 0 -5px #eee,
-
-  0 10 px -4px rgba(0, 0, 0, 0.15),
-
-  0 20px 0 -10px #eee,
-
-  0 20px 1 px -9px rgba(0, 0, 0, 0.15); */
 }
 
 .navbar {
@@ -36,11 +26,11 @@ body{
   }
 
   .todo-item {
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex;
+    justify-content: flex-start; */
     align-items: center;
     padding: 30px 20px 0;
-    width: 70%;
+    width: 90%;
     border-bottom: 1px solid #cecece;
     font-family: Roboto, sans-serif;
     font-weight: 100;
@@ -51,3 +41,4 @@ body{
   input[type=checkbox]{
     margin-right: 10px;
   }
+ 
